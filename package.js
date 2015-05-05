@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bojicas:inflections',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Meteor wrapper and template hepers for underscore.inflection',
   git: 'https://github.com/bojicas/meteor-inflections',
   documentation: 'README.md'
@@ -9,12 +9,12 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
 
-  api.use('underscore@1.0.3');
+  api.use('underscore');
 
   api.addFiles([
     'inflections.js',
     'vendor/lib/underscore.inflection.js'
-  ], 'client');
+  ]);
 });
 
 
