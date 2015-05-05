@@ -1,4 +1,4 @@
 Meteor Inflections
 ==================
 
-Meteor wrapper and template hepers for unserscore.inflection
+Meteor wrapper and template helpers for underscore.inflection
