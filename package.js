@@ -1,7 +1,7 @@
 Package.describe({
   name: 'bojicas:inflections',
-  version: '0.0.2',
-  summary: 'Meteor wrapper and template hepers for underscore.inflection (pluralize, singularize, gsub, ordinalize, titleize)',
+  version: '0.0.3',
+  summary: 'Wrapper for underscore.inflection (pluralize, singularize, gsub, ordinalize, titleize)',
   git: 'https://github.com/bojicas/meteor-inflections',
   documentation: 'README.md'
 });
