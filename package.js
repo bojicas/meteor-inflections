@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bojicas:inflections',
-  version: '0.0.5',
+  version: '0.0.6',
   summary: 'Wrapper for underscore.inflection (pluralize, singularize, gsub, ordinalize, titleize)',
   git: 'https://github.com/bojicas/meteor-inflections',
   documentation: 'README.md'
