@@ -2,7 +2,8 @@
 this._ = _;
 
 if (Meteor.isClient) {
-  Template.registerHelper('pluralize', function (singular, count) {
-    return _(singular).pluralize(count);
+  // implement pluralize helper
+  Template.registerHelper('pluralize', function (singular, count, withOutput) {
+    return _(singular).pluralize(count, withOutput);
   });
 }
