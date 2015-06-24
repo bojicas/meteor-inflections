@@ -27,8 +27,8 @@ the count will be displayed as well.
 Examples:
 
 * <code>{{pluralize 'person'}}</code> outputs <code>people</code>
-* <code>{{pluralize 'person' 1}}</code> outputs <code>person</code>
-* <code>{{pluralize 'person' 2}}</code> outputs <code>people</code>
+* <code>{{pluralize 'person' 1}}</code> outputs <code>1 person</code>
+* <code>{{pluralize 'person' 2}}</code> outputs <code>2 people</code>
 * <code>{{pluralize 'person' 3 true}}</code> outputs <code>3 people</code>
 * <code>{{pluralize 'person' 3 false}}</code> outputs <code>people</code>
 

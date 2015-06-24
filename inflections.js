@@ -3,11 +3,7 @@ this._ = _;
 
 if (Meteor.isClient) {
   Template.registerHelper('pluralize', function (singular, count, includeCount) {
-    if (includeCount === true) {
-      return _(singular).pluralize(count, includeCount);
-    } else {
-      return _(singular).pluralize(count);
-    }
+    return _.pluralize(singular, count, includeCount);
   });
 
   Template.registerHelper('singularize', function (word) {
