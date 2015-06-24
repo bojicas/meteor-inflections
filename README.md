@@ -3,7 +3,7 @@ Meteor Inflections
 
 Meteor wrapper and template helpers for [underscore.inflection](https://github.com/jeremyruppel/underscore.inflection)
 
-It exposes on both, server and client side, following inflections like:
+It exposes on both, server and client side, following inflections:
 
 * pluralize
 * singularize
@@ -21,8 +21,8 @@ Signature:
 
 * <code>singular</code> is the word to which we apply pluralize in singular
 * <code>count</code> is the count number <code>1</code>, <code>2</code>, <code>3</code>, etc...
-* <code>include-count</code> is a boolean. If included and <code>true</code>,
-the count will be displayed as well.
+* <code>include-count</code> is a boolean and optional. If <code>false</code>,
+the count will not be displayed.
 
 Examples:
 
